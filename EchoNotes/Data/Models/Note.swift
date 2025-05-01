@@ -11,5 +11,5 @@ struct Note: Identifiable {
     var id: UUID
     let title: String
     let date: Date
-    let summarizedText: String    
+    let details: String
 }
